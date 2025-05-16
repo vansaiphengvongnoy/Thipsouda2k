@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+  <title>ເເບບຟອມ</title>
+  <script>
+    function s() {
+      var a = document.getElementById("a").value;
+      var b= document.getElementById("b").value;
+      var c= document.getElementById("c").value;
+
+
+      if (a === "" ) {
+        alert("ຖ້າທ່ານຕ້ອງການສັ່ງຊື້ສິນຄ້າຂອງແບຣນເຈົ້າຊາຍ  ກະລຸນາປ້ອນຂໍ້ມູນດັ່ງນີ້:");
+        return false;
+      }
+      if (b === "" ) {
+        alert("ກະລຸນາປ້ອນ ເບີໂທຂອງທ່ານ");
+        return false;
+      }
+      if (c === "" ) {
+        alert("ກະລຸນາປ້ອນທີ່ຢູ່");
+        return false;
+      }
+     
+      alert("ສົງຂໍ້ມູນສຳເລັດ");
+ return true;
+    }
+  
+  </script>
+</head><style>input{
+                              font-family: phetsarath ot;
+}
+button{
+                              font-family: phetsarath ot;
+}</style>
+<body  style="background: linear-gradient(135deg,rgb(2, 119, 228),rgb(252, 249, 249),rgb(249, 13, 13));font-family: phetsarath ot;">
+                              
+                              
+  
+  <form onsubmit="return s()">
+                              <center> <div style="color: black;font-family: phetsarath ot;">
+                                                            <table border="0">
+                                                            <h1>ຖ້າທ່ານຕ້ອງການຊື້ສິນຄ້າຂອງພວກເຮົາ</h1>
+                                                            <h2>ກະລຸນາປ້ອນຂໍ້ມູນຂອງທ່ານຕາມທີ່ເຮົາກໍານົດ
+                                                            </h2>
+                                                           <tr>
+                                                               <th><label >ປ້ອນລາຍການສິນຄ້າທີ່ທ່ານຕ້ອງການຊື້ </label></th>
+                                                                <td><input type="text" placeholder="" id="a"></td></tr><br> 
+                                                                   <th><label > ຈຳນວນທີ່ທ່ານຕ້ອງການຊື້: </label></th>
+                                                                <td><input type="text" placeholder="" id="c"></td></tr><br><br>
+                                                                <th><label >ເບີໂທ</label></th>
+                                                                <td><input type="text" placeholder="ກະລຸນາປ້ອນເບີໂທຂອງທ່ານໃສ່" id="a"></td></tr><br> 
+                                                               <tr> <th><label >ປ້ອນ ບໍລິສັດທີ່ທ່ານຕ້ອງການໃຫ້ຝາກ:</label></th>
+                                                                <td><input type="text" placeholder="" id="b"></td><br></tr>
+                                                                <th><label >ຊື່ສາຂາ:</label></th>
+                                                                <td><input type="text" placeholder="ກະລຸນາປ້ອນສາຂາທີ່ຢູ່ໃກ້ທ່ານ" id="c"></td></tr><br><br>
+                                                                <th><label > ເມືອງ: </label></th>
+                                                                <td><input type="text" placeholder="ກະລຸນາປ້ອນເມືອງ" id="c"></td></tr><br><br>
+                                                                <th><label > ແຂວງ:</label></th>
+                                                                <td><input type="text" placeholder="ກະລຸນາປ້ອນແຂວງ" id="c"></td></tr><br><br>
+                                                               
+                                                            <tr>
+                                                
+                                                               <td colspan="6" align="center">
+                                                                                          <input type="submit" value="ສົງຂໍ້ມູນ" style="background-color: aqua;"> <input type="reset" value="ປ້ອນໃໝ່" style="background-color: greenyellow;"></td>
+                                                            </tr>
+                                                            </center>
+                                                            </table></div>
+                              <button ><a href="index.html">↩ກັບຄືນ</a></button>
+
+  </form>
+</body>
+</html>
